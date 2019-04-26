@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>show page</title>
+</head>
+<body>
+{% import 'helpers.twig' as H %}
+{{ H.partial('header') }}
+{% block body %}
+    default content ..
+{% endblock %}
+{{ H.partial('footer') }}
+</body>
+</html>
